@@ -21,7 +21,7 @@ Para rodar o projeto localmente instale:
 Clone o repositório:
 
 ```
-git clone https://github.com/phelipesr/disciplinas-api
+git clone https://github.com/PhelipeSR/disciplinas-api.git
 ```
 
 Dentro da pasta do projeto rode
@@ -42,6 +42,11 @@ yarn dev ou npm run dev
 ```
 
 ### Rotas
+
+Baixar request no Insomnia
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Disciplinas%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FPhelipeSR%2Fdisciplinas-api%2Fmain%2Frequests.json)
+
 
 | Descrição | Descrição                                                                                                                                                 | Método | Rota              | Parâmetros                                                                                                                                                                                                                                                  |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
