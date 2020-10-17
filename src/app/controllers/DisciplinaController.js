@@ -6,7 +6,7 @@ class DisciplinaController {
 	async index(req, res) {
 		const searchText = req.query.search ?? '';
 		const page = req.query.page ?? 0;
-		const numElements = req.query.length ?? 10;
+		const numElements = Number(req.query.length) ?? 10;
 
 		try {
 			const disciplinas = await Disciplina.find({
@@ -19,6 +19,7 @@ class DisciplinaController {
 
 			return res.status(200).json(disciplinas);
 		} catch (error) {
+			console.log(error)
 			return res.status(500).json({ error: { generic: error } });
 		}
 	}
